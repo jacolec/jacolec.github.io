@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://tasks-jw-kodilla.herokuapp.com/v1/tasks';
-  const trelloApiRoot = 'https://tasks-jw-kodilla.herokuapp.com/v1/trello';
+  const apiRoot = 'https://kodilla-tasks-prod-kodilla-tasks-x4kxw5.mo1.mogenius.io/v1/tasks/v1/tasks';
+  const trelloApiRoot = 'https://kodilla-tasks-prod-kodilla-tasks-x4kxw5.mo1.mogenius.io/v1/tasks/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
